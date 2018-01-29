@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Basic Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Basic Portfolio</title>
+    
 </head>
 
 <body>
     
     <!-- Header section: displays logo -->
     <header>
-        <h1 id="logo">Courtney Montgomery</h1>
+        <h1 class="heading" id="logo">Courtney Montgomery</h1>
     </header>
 
     <!-- Navigation links go here -->
     <nav id="navigation">
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
 
     <!-- Main content will go here -->
     <div class="wrapper">
         
-        <section>
-            <h2>About Me</h2>
+        <section class="content" id="about">
+            <h2 class="heading">About Me</h2>
             <article>
                 <img src="assets/images/profile.jpeg" alt="profile picture"/>
                 <p>I am a Computer Science graduate from the University of North Texas, looking to make my professional entry into the world of development. I recently enrolled in a coding bootcamp offered by Southern Methodist University, and am super excited to embark on my journey to become a full-stack developer.</p>
@@ -40,13 +42,13 @@
                 <p>I am detail-oriented and self-driven, which results to me being my biggest critic. I am aware of my capabilities and am not afraid to learn from failure or humility. I want my work to represent my character in the best way possible.</p>
             </article>            
         </section>
-        <aside id="sidebar">
-            <h2>Connect with Me</h2>            
+        <aside class="content" id="sidebar">
+            <h2 class="heading">Connect with Me</h2>            
             <ul>
-                <li><a href="https://github.com/CourtneyDM">Github</a></li>
-                <li><a href="http://www.linkedin.com/in/CourtneyDM">LinkedIn</a></li>
-                <li><a href="https://stackoverflow.com/users/8827802/courtney-m">StackOverflow</a></li>
-                <li><a href="www.twitter.com/CourtneyDM_">Twitter</a></li>
+                <li><a href="https://github.com/CourtneyDM"><img class="icon" src="assets/images/github.png"</a></li>
+                <li><a href="http://www.linkedin.com/in/CourtneyDM"><img class="icon"src="assets/images/linkedin.png"></a></li>
+                <li><a href="https://stackoverflow.com/users/8827802/courtney-m"><img class="icon"src="assets/images/stackoverflow.png"</a></li>
+                <li><a href="https://www.twitter.com/CourtneyDM_"><img class="icon"src="assets/images/twitter.png"></a></li>
             </ul>
         </aside>
     </div>

@@ -2,15 +2,77 @@ body {
     box-sizing: border-box;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/concrete_seamless.png");
-    margin: 0px;
+    color: #777;
 }
 
-h1 {
-    top: 0;
-    height: 100px;
+article {
+    margin: 25px;
+}
+
+aside {
+    width: 270px;
+}
+
+aside li {
+    display: inline;
+}
+
+header {
+    background: #FFF;
+    border-bottom: 1.5px solid #CCC;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#about {
+    width: 650px; 
+}
+
+#logo {
+    clear: both;
     background: #4aaaa5;
+    text-align: center;
+    width: 235px;
+    height: 30px;
+    margin-left: 100px;
+    padding: 30px;
     color: white;
+    /* font-family: 'Georgia', Times, Times New Roman, serif; */
+}
+
+#navigation li {
+    display: inline;
+    /* float: right; */
+}
+
+.content {
+    border: 1px solid #CCC;
+    margin: 0px auto 0px auto;
+    background-color: #FFF;  
+}
+
+.heading {
+    border-bottom: 1.5px solid #CCC;
+    font-size: 20px;
+    font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2.heading {
+    margin: 25px;
+
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.wrapper {
+    clear: both;
 }
 
 
