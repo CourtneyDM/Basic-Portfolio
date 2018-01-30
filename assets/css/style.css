@@ -9,13 +9,14 @@ body {
 header {
     background: #FFF;
     border-bottom: 1.5px solid #CCC;
+    height: 100px;
+
 }
 
 
 header nav {
     position: absolute;
-    top: 0;
-    /* left: 900px; */
+    /* right: 0; */
     display: inline;
 }
 
@@ -46,11 +47,7 @@ h2.heading, h3.heading {
     display: inline-block;
     background: #4aaaa5;
     text-align: center;
-    width: 235px;
-    height: 30px;
-    margin-left: 100px;
-    padding: 30px;
-    color: white;
+    color: #FFF;
 }
 
 
