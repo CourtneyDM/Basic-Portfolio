@@ -5,52 +5,39 @@ body {
     color: #777;
 }
 
-article {
-    margin: 25px;
-}
-
-article p {
-    vertical-align: top;
-}
-
-aside {
-    width: 270px;
-}
-
-aside ul {
-    /* padding: 50px; */
-}
-
-aside li {
-    display: inline;
-}
-
-footer {
-    background-color: #777;
-    border-top: 5px solid #4AAAA5;
-    color: #CCC;
-    font-size: 12px;
-    height: 50px;
-    margin-top: 20px;
-    padding-top: 50px;
-    text-align: center;
-
-}
-
 header {
     background: #FFF;
     border-bottom: 1.5px solid #CCC;
 }
 
-/* TODO: Add change line height & spacing; add scroll */
-#about {
-    width: 650px; 
-    margin-right: 20px;
-    margin-left: auto;
+header nav {
+    position: absolute;
+    top: 0;
+    /* left: 900px; */
+    display: inline;
+}
+
+#navigation li a {
+    text-decoration: none;
+    display: inline;
+}
+
+.heading {
+    border-bottom: 1.5px solid #CCC;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4AAAA5;
+    margin: 0px;
+}
+
+h2.heading, h3.heading {
+    margin: 25px;
+    padding-bottom: 20px;
 }
 
 #logo {
-    clear: both;
+    display: inline-block;
     background: #4aaaa5;
     text-align: center;
     width: 235px;
@@ -58,14 +45,46 @@ header {
     margin-left: 100px;
     padding: 30px;
     color: white;
-    /* font-family: 'Georgia', Times, Times New Roman, serif; */
 }
 
 /* TODO: move links to the right side of the logo, top = 0 */
 #navigation li {
-    display: inline;
-    float: right;
-    top: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: inline-block;
+    /* width: 650px; */
+}
+
+/* .content {
+    float: left;
+    border: 1px solid #CCC;
+    margin: 0px auto 0px auto;
+    background-color: #FFF;  
+} */
+
+#about {
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    width: 650px;
+    margin-top: 20px;
+    line-height: 32px;
+}
+
+article {
+    margin: 25px;
+}
+
+article p {
+    vertical-align: top;
 }
 
 #profile_pic {
@@ -76,27 +95,16 @@ header {
 }
 
 #sidebar {
-    margin-left: 20px;
-}
-
-.content {
+    background-color: #FFF;
     border: 1px solid #CCC;
-    margin: 0px auto 0px auto;
-    background-color: #FFF;  
+    float: right;
+    margin-top: 20px;
+    width: 270px;
 }
 
-.heading {
-    border-bottom: 1.5px solid #CCC;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4AAAA5;
-}
 
-h2.heading, h3.heading {
-    margin: 25px;
-    padding-bottom: 20px;
-
+aside li {
+    display: inline;
 }
 
 .icon {
@@ -105,9 +113,15 @@ h2.heading, h3.heading {
     padding: 5px 8px 10px 8px;
 }
 
-.wrapper {
-    width: 960px;
+footer {
+    background-color: #777;
+    border-top: 5px solid #4AAAA5;
+    clear: both;
+    color: #CCC;
+    font-size: 12px;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;
+
 }
-
-
-
