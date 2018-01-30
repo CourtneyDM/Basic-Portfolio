@@ -5,10 +5,12 @@ body {
     color: #777;
 }
 
+
 header {
     background: #FFF;
     border-bottom: 1.5px solid #CCC;
 }
+
 
 header nav {
     position: absolute;
@@ -17,10 +19,12 @@ header nav {
     display: inline;
 }
 
+
 #navigation li a {
     text-decoration: none;
     display: inline;
 }
+
 
 .heading {
     border-bottom: 1.5px solid #CCC;
@@ -31,10 +35,12 @@ header nav {
     margin: 0px;
 }
 
+
 h2.heading, h3.heading {
     margin: 25px;
     padding-bottom: 20px;
 }
+
 
 #logo {
     display: inline-block;
@@ -47,11 +53,13 @@ h2.heading, h3.heading {
     color: white;
 }
 
+
 /* TODO: move links to the right side of the logo, top = 0 */
 #navigation li {
     text-decoration: none;
     display: inline-block;
 }
+
 
 .container {
     width: 960px;
@@ -59,17 +67,12 @@ h2.heading, h3.heading {
     margin-right: auto;
 }
 
+
 section {
     display: inline-block;
     /* width: 650px; */
 }
 
-/* .content {
-    float: left;
-    border: 1px solid #CCC;
-    margin: 0px auto 0px auto;
-    background-color: #FFF;  
-} */
 
 #about {
     background-color: #FFF;
@@ -79,9 +82,11 @@ section {
     line-height: 32px;
 }
 
+
 article {
     margin: 25px;
 }
+
 
 article p {
     vertical-align: top;
@@ -93,6 +98,7 @@ article p {
     height: 200px;
     margin-right: 10px;
 }
+
 
 #sidebar {
     background-color: #FFF;
@@ -107,11 +113,13 @@ aside li {
     display: inline;
 }
 
+
 .icon {
     width: 48px;
     height: 48px;
     padding: 5px 8px 10px 8px;
 }
+
 
 footer {
     background-color: #777;
@@ -123,5 +131,4 @@ footer {
     margin-top: 20px;
     padding-top: 50px;
     text-align: center;
-
 }
