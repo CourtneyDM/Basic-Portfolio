@@ -172,37 +172,46 @@ aside li {
 }
 
 /* --- Styling for portfolio images --- */
-#portfolio img {
+figure img {
     width: 250px;
-    border: 1px dotted red;
+    position: relative;
+    z-index: 0;
 }
 
-.img_left {
+figure.left {
+    /* position: relative; */
+    left: 0;
+    top: 0;
+    z-index: 1;
     float: left;
-    margin: auto auto 20px auto;
+    /* margin: auto auto 20px auto; */
 }
 
-.img_right {
+figure.right {
+    /* position: relative; */
+    right: 0;
+    top: 0;
+    z-index: 1;
     float: right;
-    margin: auto auto 20px auto;
+    /* margin: auto auto 20px auto; */
 }
 
-#portfolio p {
-    display: inline;
+figcaption {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    z-index: 2;
+    text-align: center;
+    font-size: 14px;
     background-color: #4AAAA5;
-    color: #eee;
-}
-
-.label {
-    float: bottom;
+    color: #FFF;
+    width: 250px;
 }
 
 /* --- Style section for footer --- */
 .footer {
     clear: both;
-    /* position: fixed;
-    left: 0;
-    bottom: auto; */
     width: 100%;
     background-color: #666;
     border-top: 5px solid #4AAAA5;
