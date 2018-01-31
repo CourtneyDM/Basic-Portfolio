@@ -178,6 +178,7 @@ figure img {
     z-index: 0;
 }
 
+/*  --- Attributes for floating portfolio pics to the left --- */
 figure.left {
     /* position: relative; */
     left: 0;
@@ -186,7 +187,7 @@ figure.left {
     float: left;
     /* margin: auto auto 20px auto; */
 }
-
+/*  --- Attributes for floating portfolio pics to the right --- */
 figure.right {
     /* position: relative; */
     right: 0;
@@ -196,6 +197,7 @@ figure.right {
     /* margin: auto auto 20px auto; */
 }
 
+/*  --- Attributes for setting portfolio labels ontop of photo --- */
 figcaption {
     font-family: 'Georgia', Times, Times New Roman, serif;
     display: inline-block;
