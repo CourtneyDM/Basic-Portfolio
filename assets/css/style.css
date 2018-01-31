@@ -20,6 +20,10 @@ header nav {
     display: inline;
 }
 
+.content-space {
+    width: 960px;
+}
+
 
 #navigation li a {
     text-decoration: none;
