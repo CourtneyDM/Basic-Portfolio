@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Portfolio Project
+This is my attempt at the portfolio assignment for Homework 1
