@@ -5,94 +5,104 @@ body {
     color: #777;
 }
 
-
+/* --- Header styling --- */
 header {
     background: #FFF;
-    border-bottom: 1.5px solid #CCC;
+    border-bottom: 1px solid #CCC;
     height: 100px;
-
 }
 
-
-header nav {
-    position: absolute;
-    /* right: 0; */
-    display: inline;
-}
-
-.content-space {
+/* --- Adjust the width for header --- */
+.header_margin {
     width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* --- Float navigation links to the right and center on height --- */
+nav {
+    float: right;
+    margin-top: 40px;
+}
 
-#navigation li a {
+/* --- Change the navigation link colors --- */
+nav a {
+    color: #777;
     text-decoration: none;
-    display: inline;
+ 
 }
 
-
-.heading {
-    border-bottom: 1.5px solid #CCC;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4AAAA5;
-    margin: 0px;
+/* --- Increase word space between links, inline links --- */
+nav ul li {    
+    word-spacing: 10px;
+    display: inline-block;
 }
 
-
-h2.heading, h3.heading {
-    margin: 25px;
-    padding-bottom: 20px;
-}
-
-
+/* --- Logo design inside of header --- */
 #logo {
-    display: inline-block;
     background: #4aaaa5;
-    text-align: center;
     color: #FFF;
-}
-
-
-/* TODO: move links to the right side of the logo, top = 0 */
-#navigation li {
-    text-decoration: none;
     display: inline-block;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding: 38px 0 38px 0;
+    position: relative;
+    text-align: center;    
+    width: 320px;    
 }
 
-
+/* --- Set width of div containing main content --- */
 .container {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-section {
-    display: inline-block;
-    /* width: 650px; */
-}
-
-
-#about {
+/* --- Set background defaults for section and article sections --- */
+.content {
     background-color: #FFF;
-    border: 1px solid #CCC;
-    width: 650px;
-    margin-top: 20px;
+    border: 1px solid #DDD;
     line-height: 32px;
 }
 
-
-article {
-    margin: 25px;
+/* --- Standardize font used for headers --- */
+.heading {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
 
+/* Customize fonts for headers in main content */
+div.container .heading {
+    border-bottom: 1.5px solid #CCC;
+    color: #4AAAA5;
+    margin: 25px;
+    padding-bottom: 20px;
+}
 
-article p {
+/* --- Customize h1 header font in main content section --- */
+div.container h1.heading {
+    font-size: 24px;
+}
+
+/* --- Customize h3 header font in main content secion --- */
+div.container h3.heading {
+    font-size: 20px;
+}
+
+/* --- About Me section --- */
+section {
+    display: inline-block;
+    width: 650px;
+    margin-top: 20px;
+}
+
+/* --- About me description --- */
+article {
+    margin: 25px;
     vertical-align: top;
 }
 
+/* --- Profile picture dimensions and style --- */
 #profile_pic {
     float: left;
     width: 200px;
@@ -100,30 +110,29 @@ article p {
     margin-right: 10px;
 }
 
-
-#sidebar {
-    background-color: #FFF;
-    border: 1px solid #CCC;
+/* --- Section containing contact information --- */
+aside {
     float: right;
     margin-top: 20px;
     width: 270px;
 }
 
 
+/* --- Inline the social media icons --- */
 aside li {
     display: inline;
 }
 
-
+/* --- Set dimensions for social media icons --- */
 .icon {
     width: 48px;
     height: 48px;
     padding: 5px 8px 10px 8px;
 }
 
-
+/* --- Style section for footer --- */
 footer {
-    background-color: #777;
+    background-color: #666;
     border-top: 5px solid #4AAAA5;
     clear: both;
     color: #CCC;
