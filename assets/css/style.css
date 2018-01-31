@@ -32,6 +32,7 @@ a {
  
 }
 
+/* --- Change hover behavior for navigation links --- */
 a:hover {
     color: #4aaaa5;
     text-decoration: none;
@@ -57,7 +58,6 @@ nav ul li {
     text-align: center;    
     width: 320px;    
 }
-
 
 /* --- Set width of div containing main content --- */
 .container {
@@ -102,7 +102,7 @@ div.container .heading {
 /* --- About Me section --- */
 section {
     display: inline-block;
-    width: 650px;
+    width: 648px;
     margin-top: 20px;
 }
 
@@ -112,15 +112,18 @@ article {
     vertical-align: top;
 }
 
+/* --- Customize text fields --- */
 #name, #email, #message {
     padding: 1px;
     width: 600px;
 }
 
+/* --- Increase message box --- */
 #message {
     height: 200px;
 }
 
+/* --- Customize button attributes --- */
 #button {
     border: none;
     font-size: 12px;
@@ -131,10 +134,12 @@ article {
     width: 75px;
 }
 
+/* --- Change behavior when hovering over input fields --- */
 #name:hover, #email:hover, #message:hover {
     border: 1px solid #4aaaa5;
 }
 
+/* --- Change behavior when hovering over button --- */
 #button:hover {
     border: 1px solid #CCC;
 }
@@ -151,9 +156,8 @@ article {
 aside {
     float: right;
     margin-top: 20px;
-    width: 270px;
+    width: 268px;
 }
-
 
 /* --- Inline the social media icons --- */
 aside li {
@@ -164,15 +168,41 @@ aside li {
 .icon {
     width: 48px;
     height: 48px;
-    padding: 5px 8px 10px 8px;
+    padding: 5px 7px 10px 7px;
+}
+
+/* --- Styling for portfolio images --- */
+#portfolio img {
+    width: 250px;
+    border: 1px dotted red;
+}
+
+.img_left {
+    float: left;
+    margin: auto auto 20px auto;
+}
+
+.img_right {
+    float: right;
+    margin: auto auto 20px auto;
+}
+
+#portfolio p {
+    display: inline;
+    background-color: #4AAAA5;
+    color: #eee;
+}
+
+.label {
+    float: bottom;
 }
 
 /* --- Style section for footer --- */
 .footer {
     clear: both;
-    position: relative;
-    /* left: 0;
-    bottom: 0; */
+    /* position: fixed;
+    left: 0;
+    bottom: auto; */
     width: 100%;
     background-color: #666;
     border-top: 5px solid #4AAAA5;
