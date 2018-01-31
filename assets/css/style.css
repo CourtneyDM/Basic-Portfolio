@@ -26,20 +26,27 @@ nav {
 }
 
 /* --- Change the navigation link colors --- */
-nav a {
+a {
     color: #777;
     text-decoration: none;
  
 }
 
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
 /* --- Increase word space between links, inline links --- */
 nav ul li {    
     word-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
     display: inline-block;
 }
 
 /* --- Logo design inside of header --- */
-#logo {
+#logo, #button {
     background: #4aaaa5;
     color: #FFF;
     display: inline-block;
@@ -51,6 +58,7 @@ nav ul li {
     width: 320px;    
 }
 
+
 /* --- Set width of div containing main content --- */
 .container {
     width: 960px;
@@ -59,10 +67,12 @@ nav ul li {
 }
 
 /* --- Set background defaults for section and article sections --- */
-.content {
+.content, #email, #message, #name {
+    position: relative;
     background-color: #FFF;
     border: 1px solid #DDD;
     line-height: 32px;
+    color: #777;
 }
 
 /* --- Standardize font used for headers --- */
@@ -80,12 +90,12 @@ div.container .heading {
 }
 
 /* --- Customize h1 header font in main content section --- */
-div.container h1.heading {
+.content h1.heading {
     font-size: 24px;
 }
 
 /* --- Customize h3 header font in main content secion --- */
-div.container h3.heading {
+.content h3.heading {
     font-size: 20px;
 }
 
@@ -100,6 +110,33 @@ section {
 article {
     margin: 25px;
     vertical-align: top;
+}
+
+#name, #email, #message {
+    padding: 1px;
+    width: 600px;
+}
+
+#message {
+    height: 200px;
+}
+
+#button {
+    border: none;
+    font-size: 12px;
+    height: 30px;
+    letter-spacing: 0px;
+    margin: 0;
+    padding: 0;
+    width: 75px;
+}
+
+#name:hover, #email:hover, #message:hover {
+    border: 1px solid #4aaaa5;
+}
+
+#button:hover {
+    border: 1px solid #CCC;
 }
 
 /* --- Profile picture dimensions and style --- */
@@ -131,10 +168,14 @@ aside li {
 }
 
 /* --- Style section for footer --- */
-footer {
+.footer {
+    clear: both;
+    position: relative;
+    /* left: 0;
+    bottom: 0; */
+    width: 100%;
     background-color: #666;
     border-top: 5px solid #4AAAA5;
-    clear: both;
     color: #CCC;
     font-size: 12px;
     height: 50px;
