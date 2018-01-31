@@ -187,6 +187,7 @@ figure.left {
     float: left;
     /* margin: auto auto 20px auto; */
 }
+
 /*  --- Attributes for floating portfolio pics to the right --- */
 figure.right {
     /* position: relative; */
