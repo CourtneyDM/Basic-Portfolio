@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,59 +11,77 @@
 </head>
 
 <body>
+    <div id="page">
 
-    <!-- Header section -->
-    <header>
-        <div class="header_margin">
+        <header>
+            <div id="header">
+                <h1 class="heading">Courtney Montgomery</h1>
 
-            <!-- Header Logo -->
-            <h1 class="heading" id="logo">Courtney Montgomery</h1>
+                <nav id="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-            <!-- Navigation links -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">About |</a></li>
-                    <li><a href="portfolio.html">Portfolio |</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        <div id="content">
 
+            <article id="main">
+                <h1 class="heading">Contact</h1>
+                <p>Name
+                    <br>
+                    <input id="name" type="text" value="John Smith" />
+                    <br> Email
 
-    <!-- Main content starts here -->
-    <div class="container">
-        <section class="content">
-            <h1 class="heading">Contact</h1>
-            <article>
-                <form>
-                    <p>Name</br>
-                        <input id="name" type="text" name="name" value="John Smith" /></br>
-                        Email</br>
-                        <input id="email" type="text" name="email" value="example@gmail.com" /></br>
-                        Message</br>
-                        <textarea id="message"></textarea></br>
-                        <button id="button" type="submit" name="submit" value="Submit">Submit</button>
-                    </p>
-                </form>
+                    <br>
+                    <input id="email" type="text" value="example@gmail.com" />
+                    <br> Message
+                    <br>
+                    <textarea id="message"></textarea>
+                </p>
+                <br>
+                <button id="button" type="submit" value="Submit">Submit</button>
+
             </article>
+            <aside id="sidebar">
+                <h2 class="heading">Connect with Me</h2>
+                <ul>
+                    <li>
+                        <a href="https://github.com/CourtneyDM">
+                            <img src="assets/images/github.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.linkedin.com/in/CourtneyDM">
+                            <img src="assets/images/linkedin.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://stackoverflow.com/users/8827802/courtney-m">
+                            <img src="assets/images/stackoverflow.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/CourtneyDM_">
+                            <img src="assets/images/twitter.png">
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
 
-        </section>
-
-        <!-- sidebar content -->
-        <aside class="content">
-            <h3 class="heading">Connect with Me</h3>            
-            <ul>
-                <li><a href="https://github.com/CourtneyDM"><img class="icon" src="assets/images/github.png"></a></li>
-                <li><a href="http://www.linkedin.com/in/CourtneyDM"><img class="icon"src="assets/images/linkedin.png"></a></li>
-                <li><a href="https://stackoverflow.com/users/8827802/courtney-m"><img class="icon"src="assets/images/stackoverflow.png"></a></li>
-                <li><a href="https://www.twitter.com/CourtneyDM_"><img class="icon"src="assets/images/twitter.png"></a></li>
-            </ul>
-        </aside> 
+        <footer class="footer">Copyright &copy; 2018 Courtney Montgomery</footer>
     </div>
-    
 
-
-    <footer class="footer">&copy; Copyright 2018 Courtney Montgomery</footer>
 </body>
+
 </html>
