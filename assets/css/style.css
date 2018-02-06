@@ -26,8 +26,8 @@ p {
 header {
     background-color: #FFF;
     border: 1.5px solid #CCC;
-    padding-top: 42px;
-    padding-bottom: 42px;
+    /* padding-top: 42px;
+    padding-bottom: 42px; */
 }
 
 nav {
